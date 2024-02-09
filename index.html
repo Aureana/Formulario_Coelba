@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário com Validação JavaScript</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/scripts.js" defer></script>
+</head>
+
+<body>
+    <h1>Aplicação para cadastro de servidores virtuais e físicos no CMDB</h1>
+
+    <form action="https://api.sheetmonkey.io/form/qKiEQqrgC7LaJEmUc9icex" method="post">
+
+        <div class="container">
+
+            <div class="form-1">
+
+                <label for="lastname">Escreva quatro letras para definir sua aplicação.</label>
+                <input id="lastname" type="text" name=" 4 letras" placeholder="Digite 4 letras" required />
+
+                <label for="lastname">Qual é a Versão do S.O(Manufacturer)?</label>
+                <input id="lastname" type="text" name="Manufacture" placeholder="Versão do S.O(Manufacturer)"
+                    required />
+
+                <label for="lastname">Qual o código APM?</label>
+                <input id="lastname" type="text" name="Código" placeholder="Digite o Código" required />
+
+                <label for="lastname">Quantas máquinas vão ser geradas com essas aplicações?</label>
+                <input id="lastname" type="text" name="Quantidade Máquinas"
+                    placeholder="Digite a quantidade de máquinas" required />
+
+                <label for="lastname">Qual o domínio?</label>
+                <input id="lastname" type="text" name="Domain" placeholder="Digite o domínio" required />
+
+                <label for="lastname">Qual o Hostname?</label>
+                <input id="lastname" type="text" name="Hostname" placeholder="Digite o Hostname" required />
+
+                <label for="lastname">Qual o IP?</label>
+                <input id="lastname" type="text" name="IP" placeholder="Digite o IP" required />
+
+                <label for="lastname">Cluster or Host Fisico?</label>
+                <input id="lastname" type="text" name="Cluster or Host Fisico?" placeholder="Cluster or Host Fisico?"
+                    required />
+
+                <label for="lastname">IP do host fisico?</label>
+                <input id="lastname" type="text" name="IP do host fisico" placeholder="IP do host fisico" required />
+
+                <label for="lastname">Qual grupo de aprovação?</label>
+                <input id="lastname" type="text" name="Approval groups" placeholder="Digite o  grupo de aprovação"
+                    required />
+
+                <label for="lastname">Patching model</label>
+                <input id="lastname" type="text" name="Patching model" placeholder="Patching model" required />
+
+                <label for="lastname">Disk space (GB)</label>
+                <input id="lastname" type="text" name="Disk space (GB)" placeholder="Escrever a quantidade em giga"
+                    required />
+
+                <label for="lastname">CPU Core Count</label>
+                <input id="lastname" type="text" name="CPU Core Count" placeholder="Somente número" required />
+
+                <label for="lastname">CPU Count</label>
+                <input id="lastname" type="text" name="CPU Count" placeholder="Somente número" required />
+
+                <label for="lastname">Qual é o Infrastructure support groups?</label>
+                <input id="lastname" type="text" name="Infrastructure support groups"
+                    placeholder="Digite a Infrastructure support groups" required />
+
+
+            </div>
+
+
+
+            <div class="form-2">
+                <!-- <form id="form"> -->
+                <!-- <progress id="progress" value="0" max="100"></progress> -->
+
+                <label for="lastname">Qual é o Virtualizador?</label>
+                <input id="lastname" type="text" name="Virtualization type" placeholder="Digite o Virtualizador"
+                    required />
+
+                <label for="lastname">Consumed by</label>
+                <input id="lastname" type="text" name="Consumed by" placeholder="Consumed by" required />
+
+                <label for="lastname">Qual é o Technical support groups?</label>
+                <input id="lastname" type="text" name="Technical support groups"
+                    placeholder="Digite o Technical support groups" required />
+
+                <label for="lastname">Qual é o Used by groups?</label>
+                <input id="lastname" type="text" name="Used by groups" placeholder="Qual o Used by groups" required />
+
+                <label for="lastname">Qual é o Support groups?</label>
+                <input id="lastname" type="text" name="Support groups" placeholder=" Support groups" required />
+
+                <label for="lastname">Qual o Desk location?</label>
+                <input id="lastname" type="text" name="Desk location" placeholder="Desk location" required />
+
+                <label for="lastname">Descrição do servidor?</label>
+                <input id="lastname" type="text" name="Descrição do servidor" placeholder="Descrição do servidor"
+                    required />
+
+                <select name="Company" id="Company">
+                    <option value="">Qual a empresa do Servidor?</option>
+                    <option value="NEOENERGIA">NEOENERGIA</option>
+                </select>
+
+                <select name="Maintenance Window" id="MaintenanceWindow">
+                    <option value="">Maintenance Window</option>
+                    <option value="MAWADA21000200">MAWADA21000200 ( standard for production)</option>
+                </select>
+
+                <select name="Actuation Window" id="ActuationWindow">
+                    <option value="">Actuation Window</option>
+                    <option value="MAWADA21000200">MAWADA21000200 ( standard for production)</option>
+                </select>
+
+                <select name="Sistema Operacional" id="SistOperacional">
+                    <option value="">Qual o Sistema Operacional?</option>
+                    <option value="Windowns">Windowns</option>
+                    <option value="Linux">Linux</option>
+                </select>
+
+                <select name="Support Level" id="SupportLevel">
+                    <option value="">Support Level=07-15-12345NN </option>
+                    <option value="Support">Standard service in working hours</option>
+                </select>
+
+                <select name="Location" id="Location">
+                    <option value="">Qual a Localidade do Servidor?</option>
+                    <option value="Brasilia">Brasilia</option>
+                    <option value="Campinhas">Campinhas</option>
+                    <option value="Natal">Natal</option>
+                    <option value="Recife">Recife</option>
+                    <option value="Rio de Janeiro">Rio de Janeiro</option>
+                    <option value="Salvador">Salvador</option>
+                </select>
+
+                <select name="Environment" id="Environment">
+                    <option value="">Qual ambiente o Servidor vai trabalhar?</option>
+                    <option value="Produção">Produção</option>
+                    <option value="Desenvolvimento">Desenvolvimento</option>
+                    <option value="Qualidade">Qualidade</option>
+                    <option value="DR(Disaster Recovery)">DR(Disaster Recovery)</option>
+                </select>
+
+                <!-- <label for="servidor">Situação do servidor:</label> -->
+                <select name="Servidor virtual" id="servidor">
+                    <option value="">Servidor é virtual?</option>
+                    <option value="yes">Sim</option>
+                    <option value="no">Não</option>
+                </select>
+
+                <select name="Type" id="Type">
+                    <option value="">Qual tipo do Servidor?</option>
+                    <option value="Windowns">Wintel</option>
+                    <option value="Linux">Linux</option>
+                </select>
+
+                <select name="Status" id="Status">
+                    <option value="">Qual o Status do servidor?</option>
+                    <option value="Status">Installed</option>
+                </select>
+
+                <select name="Model ID" id="ModelID">
+                    <option value="">Model ID?</option>
+                    <option value="yes">VIRTUAL</option>
+                </select>
+
+                <!-- <label for="message">Mensagem:</label>
+            <textarea name="message" id="message"></textarea> -->
+
+                <div class="submit-button">
+                    <button type="submit">Enviar</button>
+                </div>
+            </div>
+
+
+        </div>
+
+    </form>
+
+    <!-- Modal -->
+    <div id="modal">
+        <div class="modal-content">
+            <span id="close-button">&times;</span>
+            <p class="modal-message"></p>
+        </div>
+    </div>
+</body>
+
+</html>
